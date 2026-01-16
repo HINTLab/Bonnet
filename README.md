@@ -7,7 +7,7 @@ Bonnet is an ultra-fast whole-body bone segmentation pipeline for CT scans. It r
 ## Contents
 
 - [Training](#training)
-- [Inference  (with sample data in this repo)](#inference--evaluate-only-with-sample-data-in-this-repo)
+- [Inference (with sample data in this repo)](#inference-with-sample-data-in-this-repo)
 - [Links: Processed training data & model weights](#links-processed-training-data--model-weights)
 
 ---
