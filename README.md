@@ -24,17 +24,21 @@ Bonnet is an ultra-fast whole-body bone segmentation pipeline for CT scans. It r
 
 ## Training
 
-1. Open the training config:
+1. Open the configs:
 
 - `Bonnet/conf/config_eva.yaml`
+- `Bonnet/conf/data/totalseg_hu200_3000.yaml`
 
-2. Set your dataset / output paths and other options inside `config_eva.yaml` (e.g., point the dataset path to your local directory where you downloaded the **Processed Data** above).
+2. Set paths and options:
+
+- In `Bonnet/conf/config_eva.yaml`, set your output/log paths and other training options. Also make sure the dataset selection points to the correct data config you are using.
+- In `Bonnet/conf/data/totalseg_hu200_3000.yaml`, set the local paths for `dataset_path` and `cache_path` to match your machine.
 
 3. Run training:
 
 ```bash
 python main.py
-```
+
 
 ## Inference with sample data
 
@@ -48,7 +52,7 @@ This repo includes **sample data** for inference. You only need to (1) point the
 
 1. Update the dataset path fields in this file to the correct **local path** of the sample data in this GitHub repo.
 
-> Tip: If the YAML contains multiple path keys (e.g., `data_root`, `dataset_root`, `img_dir`, etc.), update the one(s) used by your dataloader.
+> **Tip:** This YAML contains multiple path keys (e.g., `dataset_path` and `cache_path`). Please update the one(s) actually used by your dataloader.
 
 ------
 
