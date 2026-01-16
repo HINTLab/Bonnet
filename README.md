@@ -67,12 +67,10 @@ This repo includes **sample data** for inference. You only need to:
 1. Open:
    - `Bonnet/conf/eval/eval_on_test.yaml`
 2. Set:
-
 ```
 eval_only: True
 ```
-3.Run:
-
+3. Run:
 ```
 python main.py
 ```
