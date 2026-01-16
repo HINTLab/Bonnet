@@ -34,8 +34,6 @@ Bonnet is an ultra-fast whole-body bone segmentation pipeline for CT scans. It r
    - In `Bonnet/conf/config_eva.yaml`, configure your output/log paths and other training options. Make sure the dataset selection points to the correct data config you are using.
    - In `Bonnet/conf/data/totalseg_hu200_3000.yaml`, set the local paths for `dataset_path` and `cache_path` to match your machine.
 
-   > **Note:** `totalseg_hu200_3000.yaml` contains multiple path keys (including `dataset_path` and `cache_path`). Update the key(s) actually used by your dataloader.
-
 3. Run training:
 
 ```bash
