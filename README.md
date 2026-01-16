@@ -57,7 +57,7 @@ This repo includes **sample data** for inference. You only need to:
 
 1. Download the model checkpoint from:
    - [Weights](https://huggingface.co/hanjiangjiang123/Bonnet/tree/main)
-2. Put the downloaded checkpoint under the `Bonnet/` directory (e.g., `Bonnet/checkpoints/`).
+2. Put the downloaded checkpoint under the `Bonnet/` directory.
 3. Open:
    - `Bonnet/conf/config_eva.yaml`
 4. Update the checkpoint field in this config (e.g., `checkpoint_path` / `root_path` / `checkpoints_dir`, depending on your config) to the correct **local path** of the downloaded weight file.
