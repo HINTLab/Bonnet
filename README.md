@@ -7,7 +7,7 @@ Bonnet is an ultra-fast whole-body bone segmentation pipeline for CT scans. It r
 ## Contents
 
 - [Training](#training)
-- [Inference (with sample data in this repo)](#inference-with-sample-data-in-this-repo)
+- [Inference with sample data](#inference-with-sample-data)
 - [Links: Processed training data & model weights](#links-processed-training-data--model-weights)
 
 ---
@@ -36,7 +36,7 @@ Bonnet is an ultra-fast whole-body bone segmentation pipeline for CT scans. It r
 python main.py
 ```
 
-## Inference  (with sample data in this repo)
+## Inference with sample data
 
 This repo includes **sample data** for inference. You only need to (1) point the data config to the correct local path, and (2) download weights and point the main config to the checkpoint.
 
