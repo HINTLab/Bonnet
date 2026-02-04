@@ -13,7 +13,7 @@
 
   ------
 
-  ## Links: Processed training data & model weights
+  ## Processed training data & model weights
 
   - **Processed training data**: [Processed Data](https://huggingface.co/hanjiangjiang123/Bonnet/tree/main/CACHE/batch_specs%3D(sparse_voxel)%2Chu_max%3D3000%2Chu_min%3D200)
   - **Model weights**: [Weights](https://huggingface.co/hanjiangjiang123/Bonnet/tree/main)
