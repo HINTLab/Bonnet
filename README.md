@@ -7,9 +7,10 @@
   ## Contents
 
   - [Processed training data & model weights](#processed-training-data--model-weights)
-  - [Data Preparation ](https://www.google.com/search?q=%23data-preparation)
-  - [Training](https://www.google.com/search?q=%23training)
-  - [Inference (Single Case vs. Sample Data)](https://www.google.com/search?q=%23inference)
+  - [Data Preparation](#data-preparation)
+  - [Training](#training)
+  - [Inference](#inference)
+  - [Citation](#citation)
 
   ------
 
