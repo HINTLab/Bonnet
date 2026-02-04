@@ -1,12 +1,12 @@
 - # Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans
 
-  Bonnet is an ultra-fast whole-body bone segmentation pipeline for CT scans. It runs **in seconds per scan** on a single commodity GPU while maintaining reliable segmentation quality across different datasets.
+  Bonnet is an ultra-fast whole-body bone segmentation pipeline for CT scans. It runs **in seconds per scan** on a single commodity GPU while maintaining reliable segmentation quality across different datasets.**[[Paper\]](https://www.arxiv.org/abs/2601.22576)**
 
   ------
 
   ## Contents
 
-  - [Links: Processed training data & model weights](https://www.google.com/search?q=%23links-processed-training-data--model-weights)
+  - [Processed training data & model weights](https://www.google.com/search?q=%23links-processed-training-data--model-weights)
   - [Data Preparation ](https://www.google.com/search?q=%23data-preparation)
   - [Training](https://www.google.com/search?q=%23training)
   - [Inference (Single Case vs. Sample Data)](https://www.google.com/search?q=%23inference)
@@ -88,3 +88,14 @@
   2. Point your data config to the sample data path.
   3. Run: `python main.py`
 
+## Citation
+
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@article{bonnet2026,
+  title={Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans},
+  author={Jiang, Han and others},
+  journal={arXiv preprint arXiv:2601.22576},
+  year={2026}
+}
