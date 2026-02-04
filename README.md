@@ -93,9 +93,9 @@
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@article{bonnet2026,
+@article{zhu2026bonnet,
   title={Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans},
-  author={Jiang, Han and others},
+  author={Hanjiang Zhu and Pedro Martelleto Rezende and Zhang Yang and Tong Ye and Bruce Z. Gao and Feng Luo and Siyu Huang and Jiancheng Yang},
   journal={arXiv preprint arXiv:2601.22576},
   year={2026}
 }
